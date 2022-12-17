@@ -387,30 +387,23 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
- ____    ____  ____    ____   ______   
-|_   \  /   _||_   \  /   _|.' ____ \  
-  |   \/   |    |   \/   |  | (___ \_| 
-  | |\  /| |    | |\  /| |   _.____`.  
- _| |_\/_| |_  _| |_\/_| |_ | \____) | 
-|_____||_____||_____||_____| \______.'                                        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-  \033
-__________________×__×____________________
-  
-  𝘼𝙪𝙩𝙝𝙤𝙧   :  MMS  𝑯𝑨𝑪𝑲𝑬𝑹
- 
-  𝙂𝙞𝙩𝙝𝙪𝙗   :  irtazaha 
+logo ="""  \033[1;32;40m
+   __  __ __  __  _____ 
+ |  \/  |  \/  |/ ____|
+ | \  / | \  / | (___  
+ | |\/| | |\/| |\___ \ 
+ | |  | | |  | |____) |
+ |_|  |_|_|  |_|_____/ 
 
-  𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠 :  MUHAMMAD MOSHIN
-  
-  𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 :  923036535192
-  
-   𝙏𝙀𝘼𝙈    :   NAI
-
-                𝑬𝑵𝑱𝑶𝒀  𝑭𝑹𝑬𝑬 𝑻𝑶𝑶𝑳𝑺
-_______😈___________×__×_______😈_____________\033[1;37m""")
-
+\033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;97mA̳U̳T̳H̳O̳R̳>>>>\033[1;97m»»\033[1;97mM̳U̳H̳A̳M̳M̳A̳H̳ M̳O̳S̳H̳I̳N̳✓✓
+\033[1;32mF̳A̳C̳E̳B̳O̳O̳K̳>>>\033[1;31m»»\033[1;32mM̳.M̳O̳S̳H̳I̳N̳✓✓               
+\033[1;97mW̳H̳A̳T̳S̳A��P̳P̳>>>\033[1;97m»»\033[1;97m0+923254985137✓✓
+\033[1;32mG̳I̳T̳H̳U̳B̳>>>>>>>\033[1;31m»»\033[1;31mI̳R̳T̳A̳Z̳A̳H̳A̳✓✓
+\033[1;31mV̳E̳R̳S̳I̳O̳N̳>>>>>>>\033[1;31m»»\033[1;32m0.9✓✓   
+\033[1;32mT̳O̳O̳L̳ S̳T̳U̳T̳A̳S̳>>>>\033[1;31m»»\033[1;32mF̳R̳E̳E̳✓✓
+\033[1;35mM̳M̳S̳ F̳U̳L̳L̳ W̳O̳R̳K̳I̳N̳G̳ C̳O̳M̳M̳A̳N̳D̳S̳ T̳E̳R̳M̳U̳X̳✓✓
+\033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"""
 class Main:
 	def __init__(self):
 		self.id = []
@@ -509,6 +502,27 @@ class Main:
   "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0.2 Waterfox/40.0.2",
   "Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N900T Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36",
   "Mozilla/5.0 (Linux; Android 4.4.2; SM-T217S Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36",
+  "Mozilla/5.0 (Linux; U; Android 7.1.1; en-US; CPH1729 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/13.1.8.1295 Mobile Safari/537.36",
+  "Mozilla/5.0 (Linux; Android 7.1.1; CPH1717 Build/N4F26M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.127 Mobile Safari/537.36',
+  "Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 Instagram 169.1.0.29.135 Android (22/5.1; 320dpi; 720x1280; OPPO; A1601; A1601; mt6755; en_GB; 262886987)",
+  "Mozilla/5.0 (Linux; Android 8.1.0; CPH1803 Build/OPM1.171019.026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36 YaApp_Android/10.20 YaSearchBrowser/10.20",
+  "Mozilla/5.0 (Linux; Android 6.0.1; vivo 1606 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/5.5.5',
+  "Mozilla/5.0 (Linux; Android 10; vivo 1920; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/6.8.0.1",	 
+  "Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 GSA/11.18.11.21.arm",
+  "Mozilla/5.0 (Linux; U; Android 7.1.1; CPH1729 Build/N6F26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Mobile Safari/537.36 OPR/52.2.2254.54723",
+  "Mozilla/5.0 (Linux; Android 7.1.1; OPPO CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36",
+  "Mozilla/5.0 (Linux; Android 8.1.0; CPH1819 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36",
+  "Mozilla/5.0 (Linux; Android 8.1.0; CPH1803 Build/OPM1.171019.026) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36 YaApp_Android/9.00 YaSearchBrowser/9.00",
+  "Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36",
+  "Mozilla/5.0 (Linux; Android 7.1.1; CPH1729 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36 YaApp_Android/11.20 YaSearchBrowser/11.20",
+  "Mozilla/5.0 (Linux; U; Android 5.1.1; A37f Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36 OPR/51.0.2254.150807",
+  "Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 GSA/11.0.10.21.arm",
+  "Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.136 Mobile Safari/537.36 GSA/10.94.12.21.arm",
+  "Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 GSA/10.84.19.21.arm",
+  "Mozilla/5.0 (Linux; Android 8.1.0; vivo 1802 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36",
+  "Mozilla/5.0 (Linux; Android 7.1.1; CPH1729 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 YaApp_Android/10.61 YaSearchBrowser/10.61",
+  "Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36 YaApp_Android/10.70 YaSearchBrowser/10.70",
+  "Mozilla/5.0 (Linux; Android 7.1.1; CPH1801 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36",
   "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; MALNJS; rv:11.0) like Gecko",
   "Mozilla/5.0 (Linux; Android 4.4.2; RCT6203W46 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36",
   "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
